@@ -1,0 +1,35 @@
+.container {
+    padding: 1rem;
+}
+
+.taskInput {
+    padding: 0.5rem;
+}
+
+.addButton {
+    margin-left: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: teal;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.taskList {
+    list-style: none;
+    margin-top: 1rem;
+    padding: 0;
+}
+
+.taskItem {
+    margin-bottom: 0.5rem;
+}
+
+.deleteButton {
+    margin-left: 1rem;
+    color: white;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    padding: 0.3rem 0.5rem;
+}
