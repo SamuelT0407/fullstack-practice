@@ -1,17 +1,20 @@
-# === Node.js backend ===
-backend/node_modules/
-backend/.env
-backend/dist/
+# Node modules
+**/node_modules
 
-# === Vite + React frontend ===
-frontend/node_modules/
-frontend/dist/
-frontend/.env
-frontend/.vitepress/
-frontend/.cache/
+# Build files
+**/dist
+**/build
 
-# === VS Code settings ===
+# Environment variables
+**/.env
+
+# IDE/editor settings
+.idea/
 .vscode/
 
-# === JetBrains IDEs (如 WebStorm, IntelliJ, PhpStorm) ===
-.idea/
+# Logs
+*.log
+
+# Mac/Linux/Windows system files
+.DS_Store
+Thumbs.db
